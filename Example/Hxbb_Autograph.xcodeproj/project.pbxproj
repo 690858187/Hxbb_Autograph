@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5353204F2499F256001AB14A /* GapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353203C2499F256001AB14A /* GapView.m */; };
+		535320502499F256001AB14A /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353203E2499F256001AB14A /* PaintingView.m */; };
+		535320512499F256001AB14A /* point.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 5353203F2499F256001AB14A /* point.vsh */; };
+		535320532499F256001AB14A /* DashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 535320432499F256001AB14A /* DashedLineView.m */; };
+		535320552499F256001AB14A /* fileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 535320462499F256001AB14A /* fileUtil.m */; };
+		535320562499F256001AB14A /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = 535320472499F256001AB14A /* Particle.png */; };
+		535320572499F256001AB14A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 535320492499F256001AB14A /* ReplaceMe.m */; };
+		535320582499F256001AB14A /* point.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 5353204A2499F256001AB14A /* point.fsh */; };
+		535320592499F256001AB14A /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5353204C2499F256001AB14A /* shaderUtil.c */; };
+		5353205A2499F256001AB14A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5353204E2499F256001AB14A /* .gitkeep */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +49,24 @@
 /* Begin PBXFileReference section */
 		013E2F06ED25824F2EFC0667 /* Pods-Hxbb_Autograph_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Example.release.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Example/Pods-Hxbb_Autograph_Example.release.xcconfig"; sourceTree = "<group>"; };
 		07E0AF9B94B00E9BBBC2C97F /* Pods-Hxbb_Autograph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Example/Pods-Hxbb_Autograph_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		16009FF480A5AA5AA52C4AA7 /* Hxbb_Autograph.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Hxbb_Autograph.podspec; path = ../Hxbb_Autograph.podspec; sourceTree = "<group>"; };
-		5439CACFDD198DB35669477B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16009FF480A5AA5AA52C4AA7 /* Hxbb_Autograph.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hxbb_Autograph.podspec; path = ../Hxbb_Autograph.podspec; sourceTree = "<group>"; };
+		5353203C2499F256001AB14A /* GapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GapView.m; sourceTree = "<group>"; };
+		5353203D2499F256001AB14A /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		5353203E2499F256001AB14A /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		5353203F2499F256001AB14A /* point.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.vsh; sourceTree = "<group>"; };
+		535320402499F256001AB14A /* fileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileUtil.h; sourceTree = "<group>"; };
+		535320422499F256001AB14A /* shaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderUtil.h; sourceTree = "<group>"; };
+		535320432499F256001AB14A /* DashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedLineView.m; sourceTree = "<group>"; };
+		535320442499F256001AB14A /* GapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GapView.h; sourceTree = "<group>"; };
+		535320462499F256001AB14A /* fileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileUtil.m; sourceTree = "<group>"; };
+		535320472499F256001AB14A /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		535320482499F256001AB14A /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		535320492499F256001AB14A /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5353204A2499F256001AB14A /* point.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.fsh; sourceTree = "<group>"; };
+		5353204B2499F256001AB14A /* DashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedLineView.h; sourceTree = "<group>"; };
+		5353204C2499F256001AB14A /* shaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shaderUtil.c; sourceTree = "<group>"; };
+		5353204E2499F256001AB14A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5439CACFDD198DB35669477B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B3DB20D03D22E4AB0F86DB1 /* Pods-Hxbb_Autograph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Tests/Pods-Hxbb_Autograph_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE66D8A7C47F7905D200093 /* Pods_Hxbb_Autograph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hxbb_Autograph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* Hxbb_Autograph_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hxbb_Autograph_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +89,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E4218A42501E1C7852C6411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E4218A42501E1C7852C6411 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		82B044C45164B6157EAC6C24 /* Pods_Hxbb_Autograph_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hxbb_Autograph_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B466890B95DA8136C20469B7 /* Pods-Hxbb_Autograph_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Tests/Pods-Hxbb_Autograph_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +121,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		535320392499F256001AB14A /* Hxbb_Autograph */ = {
+			isa = PBXGroup;
+			children = (
+				5353203A2499F256001AB14A /* Classes */,
+				5353204D2499F256001AB14A /* Assets */,
+			);
+			name = Hxbb_Autograph;
+			path = ../Hxbb_Autograph;
+			sourceTree = "<group>";
+		};
+		5353203A2499F256001AB14A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5353204B2499F256001AB14A /* DashedLineView.h */,
+				535320432499F256001AB14A /* DashedLineView.m */,
+				5353203D2499F256001AB14A /* debug.h */,
+				535320402499F256001AB14A /* fileUtil.h */,
+				535320462499F256001AB14A /* fileUtil.m */,
+				535320442499F256001AB14A /* GapView.h */,
+				5353203C2499F256001AB14A /* GapView.m */,
+				535320482499F256001AB14A /* PaintingView.h */,
+				5353203E2499F256001AB14A /* PaintingView.m */,
+				535320472499F256001AB14A /* Particle.png */,
+				5353204A2499F256001AB14A /* point.fsh */,
+				5353203F2499F256001AB14A /* point.vsh */,
+				535320492499F256001AB14A /* ReplaceMe.m */,
+				5353204C2499F256001AB14A /* shaderUtil.c */,
+				535320422499F256001AB14A /* shaderUtil.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5353204D2499F256001AB14A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5353204E2499F256001AB14A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +244,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				535320392499F256001AB14A /* Hxbb_Autograph */,
 				16009FF480A5AA5AA52C4AA7 /* Hxbb_Autograph.podspec */,
 				5439CACFDD198DB35669477B /* README.md */,
 				7E4218A42501E1C7852C6411 /* LICENSE */,
@@ -193,7 +260,6 @@
 				B466890B95DA8136C20469B7 /* Pods-Hxbb_Autograph_Tests.debug.xcconfig */,
 				5B3DB20D03D22E4AB0F86DB1 /* Pods-Hxbb_Autograph_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +314,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "690858187@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZD86FMLT75;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +327,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -279,6 +349,10 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				535320582499F256001AB14A /* point.fsh in Resources */,
+				5353205A2499F256001AB14A /* .gitkeep in Resources */,
+				535320512499F256001AB14A /* point.vsh in Resources */,
+				535320562499F256001AB14A /* Particle.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -365,8 +439,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HXBBAppDelegate.m in Sources */,
+				535320572499F256001AB14A /* ReplaceMe.m in Sources */,
+				535320592499F256001AB14A /* shaderUtil.c in Sources */,
+				535320532499F256001AB14A /* DashedLineView.m in Sources */,
 				6003F5A7195388D20070C39A /* HXBBViewController.m in Sources */,
+				535320552499F256001AB14A /* fileUtil.m in Sources */,
+				535320502499F256001AB14A /* PaintingView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5353204F2499F256001AB14A /* GapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,11 +574,12 @@
 			baseConfigurationReference = 07E0AF9B94B00E9BBBC2C97F /* Pods-Hxbb_Autograph_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD86FMLT75;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hxbb_Autograph/Hxbb_Autograph-Prefix.pch";
 				INFOPLIST_FILE = "Hxbb_Autograph/Hxbb_Autograph-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Hxbb-Autograph-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +591,12 @@
 			baseConfigurationReference = 013E2F06ED25824F2EFC0667 /* Pods-Hxbb_Autograph_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD86FMLT75;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hxbb_Autograph/Hxbb_Autograph-Prefix.pch";
 				INFOPLIST_FILE = "Hxbb_Autograph/Hxbb_Autograph-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Hxbb-Autograph-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

@@ -7,6 +7,7 @@
 //
 
 #import "HXBBViewController.h"
+#import "PaintingView.h"
 
 @interface HXBBViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    PaintingView *paintView = [[PaintingView alloc] initWithFrame:self.view.bounds];
+    paintView.backgroundColor = [UIColor whiteColor];
+    [paintView setBrushColorWithRed:0.0 green:0.0 blue:0.0];
+    [self.view addSubview:paintView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
