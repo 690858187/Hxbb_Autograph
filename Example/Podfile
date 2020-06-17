@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Hxbb_Autograph_Example' do
+  pod 'Hxbb_Autograph', :path => '../'
+
+  target 'Hxbb_Autograph_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
