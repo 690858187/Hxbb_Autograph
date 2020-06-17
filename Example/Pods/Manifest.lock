@@ -1,0 +1,16 @@
+PODS:
+  - Hxbb_Autograph (0.1.0)
+
+DEPENDENCIES:
+  - Hxbb_Autograph (from `../`)
+
+EXTERNAL SOURCES:
+  Hxbb_Autograph:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hxbb_Autograph: a758bc3754d19c5ab84606b4340a00cde090a528
+
+PODFILE CHECKSUM: a5157a269c7b1f245b2901e8bfbcf7f54be662ba
+
+COCOAPODS: 1.9.2

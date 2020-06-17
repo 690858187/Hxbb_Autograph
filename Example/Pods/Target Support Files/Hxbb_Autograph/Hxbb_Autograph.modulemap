@@ -1,0 +1,6 @@
+framework module Hxbb_Autograph {
+  umbrella header "Hxbb_Autograph-umbrella.h"
+
+  export *
+  module * { export * }
+}

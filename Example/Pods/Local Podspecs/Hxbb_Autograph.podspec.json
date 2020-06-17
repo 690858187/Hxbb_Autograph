@@ -1,0 +1,22 @@
+{
+  "name": "Hxbb_Autograph",
+  "version": "0.1.0",
+  "summary": "A short description of Hxbb_Autograph.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/690858187@qq.com/Hxbb_Autograph",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "690858187@qq.com": "690858187@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/690858187@qq.com/Hxbb_Autograph.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Hxbb_Autograph/Classes/**/*"
+}
