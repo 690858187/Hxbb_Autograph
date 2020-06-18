@@ -14,6 +14,9 @@
 		53532085249B54F0001AB14A /* DashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53532083249B54F0001AB14A /* DashedLineView.m */; };
 		53532088249B5559001AB14A /* point.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 53532086249B5559001AB14A /* point.fsh */; };
 		53532089249B5559001AB14A /* point.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 53532087249B5559001AB14A /* point.vsh */; };
+		53532091249B55F9001AB14A /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353208A249B55F8001AB14A /* PaintingView.m */; };
+		53532092249B55F9001AB14A /* fileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353208B249B55F8001AB14A /* fileUtil.m */; };
+		53532093249B55F9001AB14A /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 5353208C249B55F8001AB14A /* shaderUtil.c */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -56,6 +59,13 @@
 		53532084249B54F0001AB14A /* DashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedLineView.h; sourceTree = "<group>"; };
 		53532086249B5559001AB14A /* point.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.fsh; sourceTree = "<group>"; };
 		53532087249B5559001AB14A /* point.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = point.vsh; sourceTree = "<group>"; };
+		5353208A249B55F8001AB14A /* PaintingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		5353208B249B55F8001AB14A /* fileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileUtil.m; sourceTree = "<group>"; };
+		5353208C249B55F8001AB14A /* shaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shaderUtil.c; sourceTree = "<group>"; };
+		5353208D249B55F8001AB14A /* PaintingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		5353208E249B55F8001AB14A /* fileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileUtil.h; sourceTree = "<group>"; };
+		5353208F249B55F8001AB14A /* shaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderUtil.h; sourceTree = "<group>"; };
+		53532090249B55F8001AB14A /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
 		5439CACFDD198DB35669477B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B3DB20D03D22E4AB0F86DB1 /* Pods-Hxbb_Autograph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Tests/Pods-Hxbb_Autograph_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE66D8A7C47F7905D200093 /* Pods_Hxbb_Autograph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hxbb_Autograph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +134,13 @@
 		5353203A2499F256001AB14A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				53532090249B55F8001AB14A /* debug.h */,
+				5353208E249B55F8001AB14A /* fileUtil.h */,
+				5353208B249B55F8001AB14A /* fileUtil.m */,
+				5353208D249B55F8001AB14A /* PaintingView.h */,
+				5353208A249B55F8001AB14A /* PaintingView.m */,
+				5353208C249B55F8001AB14A /* shaderUtil.c */,
+				5353208F249B55F8001AB14A /* shaderUtil.h */,
 				53532086249B5559001AB14A /* point.fsh */,
 				53532087249B5559001AB14A /* point.vsh */,
 				53532084249B54F0001AB14A /* DashedLineView.h */,
@@ -424,8 +441,11 @@
 				6003F59E195388D20070C39A /* HXBBAppDelegate.m in Sources */,
 				53532085249B54F0001AB14A /* DashedLineView.m in Sources */,
 				535320572499F256001AB14A /* ReplaceMe.m in Sources */,
+				53532092249B55F9001AB14A /* fileUtil.m in Sources */,
 				6003F5A7195388D20070C39A /* HXBBViewController.m in Sources */,
 				53532082249B53DB001AB14A /* GapView.m in Sources */,
+				53532091249B55F9001AB14A /* PaintingView.m in Sources */,
+				53532093249B55F9001AB14A /* shaderUtil.c in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
