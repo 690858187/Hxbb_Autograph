@@ -294,7 +294,7 @@ typedef struct {
     height = CGImageGetHeight(brushImage);
     
     // Make sure the image exists
-    if(brushImage) {
+    {
         // Allocate  memory needed for the bitmap context
         brushData = (GLubyte *) calloc(width * height * 4, sizeof(GLubyte));
         // Use  the bitmatp creation function provided by the Core Graphics framework.

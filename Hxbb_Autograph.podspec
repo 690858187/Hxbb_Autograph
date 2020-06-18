@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/690858187/Hxbb_Autograph'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '690858187@qq.com' => '690858187@qq.com' }
+  s.author           = { '李宇涵' => '690858187@qq.com' }
   s.source           = { :git => 'https://github.com/690858187/Hxbb_Autograph.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Hxbb_Autograph/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/*.png']
-  # }
+  #s.resource_bundles = {
+    #'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
