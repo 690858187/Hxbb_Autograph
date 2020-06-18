@@ -11,6 +11,7 @@
 		535320572499F256001AB14A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 535320492499F256001AB14A /* ReplaceMe.m */; };
 		5353205A2499F256001AB14A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5353204E2499F256001AB14A /* .gitkeep */; };
 		53532082249B53DB001AB14A /* GapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53532081249B53DB001AB14A /* GapView.m */; };
+		53532085249B54F0001AB14A /* DashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53532083249B54F0001AB14A /* DashedLineView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,6 +50,8 @@
 		5353204E2499F256001AB14A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		53532080249B53DB001AB14A /* GapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GapView.h; sourceTree = "<group>"; };
 		53532081249B53DB001AB14A /* GapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GapView.m; sourceTree = "<group>"; };
+		53532083249B54F0001AB14A /* DashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedLineView.m; sourceTree = "<group>"; };
+		53532084249B54F0001AB14A /* DashedLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashedLineView.h; sourceTree = "<group>"; };
 		5439CACFDD198DB35669477B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B3DB20D03D22E4AB0F86DB1 /* Pods-Hxbb_Autograph_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Tests.release.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Tests/Pods-Hxbb_Autograph_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FE66D8A7C47F7905D200093 /* Pods_Hxbb_Autograph_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hxbb_Autograph_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +120,8 @@
 		5353203A2499F256001AB14A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				53532084249B54F0001AB14A /* DashedLineView.h */,
+				53532083249B54F0001AB14A /* DashedLineView.m */,
 				53532080249B53DB001AB14A /* GapView.h */,
 				53532081249B53DB001AB14A /* GapView.m */,
 				535320492499F256001AB14A /* ReplaceMe.m */,
@@ -409,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* HXBBAppDelegate.m in Sources */,
+				53532085249B54F0001AB14A /* DashedLineView.m in Sources */,
 				535320572499F256001AB14A /* ReplaceMe.m in Sources */,
 				6003F5A7195388D20070C39A /* HXBBViewController.m in Sources */,
 				53532082249B53DB001AB14A /* GapView.m in Sources */,
