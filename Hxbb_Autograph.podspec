@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Hxbb_Autograph/Classes/**/*'
   
-  #s.resource_bundles = {
-    #'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/*']
-  #}
+  s.resource_bundles = {
+    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
