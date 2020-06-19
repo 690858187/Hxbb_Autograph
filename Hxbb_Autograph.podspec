@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Hxbb_Autograph/Classes/*.*'
+  s.source_files = 'Hxbb_Autograph/Classes/**/*'
   
   s.resource_bundles = {
-    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/Hxbb_Autograph.bundle/*']
+    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/*.*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
