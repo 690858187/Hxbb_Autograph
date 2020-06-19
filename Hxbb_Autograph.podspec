@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Hxbb_Autograph/Classes/**/*'
   
   s.resource_bundles = {
-    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/Hxbb_Autograph/*']
+    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/Hxbb_Autograph.bundle/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
