@@ -118,7 +118,7 @@
 		535320392499F256001AB14A /* Hxbb_Autograph */ = {
 			isa = PBXGroup;
 			children = (
-				53532096249C4A60001AB14A /* Hxbb_Autograph.bundle */,
+				535320AE249C6696001AB14A /* Assets */,
 				5353203A2499F256001AB14A /* Classes */,
 			);
 			name = Hxbb_Autograph;
@@ -142,6 +142,14 @@
 				535320492499F256001AB14A /* ReplaceMe.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		535320AE249C6696001AB14A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53532096249C4A60001AB14A /* Hxbb_Autograph.bundle */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {

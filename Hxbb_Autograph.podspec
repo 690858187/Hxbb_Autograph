@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Hxbb_Autograph'
-  s.version          = '0.2.1'
+  s.version          = '0.2.0'
   s.summary          = '电子签名'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Hxbb_Autograph/Classes/**/*'
   
   s.resource_bundles = {
-    'Hxbb_Autograph' => ['Hxbb_Autograph/*']
+    'Hxbb_Autograph' => ['Hxbb_Autograph/Assets/Hxbb_Autograph/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
