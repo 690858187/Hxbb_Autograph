@@ -287,7 +287,9 @@ typedef struct {
     textureInfo_t   texture;
     
     // First create a UIImage object from the data in a image file, and then extract the Core Graphics image
-    brushImage = [UIImage imageNamed:name].CGImage;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Hxbb_Autograph" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    brushImage = [UIImage imageNamed:@"Particle" inBundle:bundle compatibleWithTraitCollection:nil].CGImage;
     
     // Get the width and height of the image
     width = CGImageGetWidth(brushImage);

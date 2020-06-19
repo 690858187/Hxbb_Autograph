@@ -50,8 +50,10 @@
 
 const char *pathForResource(const char *name)
 {
-    NSString *path = [[NSBundle mainBundle] pathForResource:[NSString stringWithUTF8String:name] ofType: nil];
-    return [path fileSystemRepresentation];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Hxbb_Autograph" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:path];
+    NSString *file = [bundle pathForResource:[NSString stringWithUTF8String:name] ofType: nil];
+    return [file fileSystemRepresentation];
 }
 
 char *readFile(const char *name)
