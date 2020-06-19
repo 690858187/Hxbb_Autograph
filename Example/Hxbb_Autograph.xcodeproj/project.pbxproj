@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		535320572499F256001AB14A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 535320492499F256001AB14A /* ReplaceMe.m */; };
-		5353205A2499F256001AB14A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5353204E2499F256001AB14A /* .gitkeep */; };
 		53532082249B53DB001AB14A /* GapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53532081249B53DB001AB14A /* GapView.m */; };
 		53532085249B54F0001AB14A /* DashedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53532083249B54F0001AB14A /* DashedLineView.m */; };
 		53532091249B55F9001AB14A /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5353208A249B55F8001AB14A /* PaintingView.m */; };
@@ -49,7 +48,6 @@
 		07E0AF9B94B00E9BBBC2C97F /* Pods-Hxbb_Autograph_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hxbb_Autograph_Example.debug.xcconfig"; path = "Target Support Files/Pods-Hxbb_Autograph_Example/Pods-Hxbb_Autograph_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		16009FF480A5AA5AA52C4AA7 /* Hxbb_Autograph.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hxbb_Autograph.podspec; path = ../Hxbb_Autograph.podspec; sourceTree = "<group>"; };
 		535320492499F256001AB14A /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		5353204E2499F256001AB14A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		53532080249B53DB001AB14A /* GapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GapView.h; sourceTree = "<group>"; };
 		53532081249B53DB001AB14A /* GapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GapView.m; sourceTree = "<group>"; };
 		53532083249B54F0001AB14A /* DashedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashedLineView.m; sourceTree = "<group>"; };
@@ -120,8 +118,8 @@
 		535320392499F256001AB14A /* Hxbb_Autograph */ = {
 			isa = PBXGroup;
 			children = (
+				53532096249C4A60001AB14A /* Hxbb_Autograph.bundle */,
 				5353203A2499F256001AB14A /* Classes */,
-				5353204D2499F256001AB14A /* Assets */,
 			);
 			name = Hxbb_Autograph;
 			path = ../Hxbb_Autograph;
@@ -144,15 +142,6 @@
 				535320492499F256001AB14A /* ReplaceMe.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		5353204D2499F256001AB14A /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5353204E2499F256001AB14A /* .gitkeep */,
-				53532096249C4A60001AB14A /* Hxbb_Autograph.bundle */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -344,7 +333,6 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				53532097249C4A60001AB14A /* Hxbb_Autograph.bundle in Resources */,
-				5353205A2499F256001AB14A /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
